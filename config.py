@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝑨𝒍𝒐𝒏𝒆 ✘ 𝑴𝒖𝒔𝒊𝒄˼")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝑶𝒍𝒊𝒗𝒊𝒂 ✘ 𝑴𝒖𝒔𝒊𝒄˼")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6079943111").split()))
 
@@ -33,7 +33,7 @@ SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
 )
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/5c961afbaac3dfcb6fa79.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/2ea6670813dda85348a30.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
+    "https://telegra.ph/file/2ea6670813dda85348a30.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
